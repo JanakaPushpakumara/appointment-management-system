@@ -37,3 +37,6 @@ endpoints:
 
         - name: Twilio connection
           resourceRef: thirdparty:Twilio/v1
+
+        - name: appointment management MYSQL
+          resourceRef: database:my-mysql/TestDB
