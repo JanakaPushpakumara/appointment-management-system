@@ -8,9 +8,9 @@ const dbName = '';
 const dbPort = '';
 
 // Twilio configruation
-const twilioAccountSid = '';
-const twilioAuthToken = '';
-const twilioFromPhoneNumber = '';
+const twilioAccountSid = process.env.CHOREO_TWILIO_CONNECTION_ACCOUNT_SID;
+const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN;
+const twilioFromPhoneNumber = process.env.TWILIO_FROM_PHONE_NUMBER;
 
 // User Manager configuration
 const userManagerServiceUrl = process.env.CHOREO_USER_MANAGER_SERVICE_CONNECTION_SERVICEURL;

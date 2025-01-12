@@ -34,3 +34,6 @@ endpoints:
 
         - name: User Manager Service Connection
           resourceRef: service:/choreo-demo/user-manager-service/v1/bc224/PUBLIC
+
+        - name: Twilio connection
+          resourceRef: thirdparty:Twilio/v1
